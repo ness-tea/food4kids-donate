@@ -1,3 +1,32 @@
+body, html {
+  margin: 0;
+  padding:0;
+}
+
 .logo {
-  text-align:left;
+  text-;align:left;
+  width:
+}
+
+.step-1 {
+  margin:50px 0px;
+  border:0.5px;
+  background-color: #bc2020;
+  width: 100%;
+}
+
+table, td {
+  border: 0.5px solid grey;
+}
+
+td {
+  width:50vw;
+  height:100px;
+}
+
+h2 {
+  margin-left: 20px;
+  color: white;
+  font-size: 30px;
+  background-size: cover;
 }
