@@ -36,3 +36,36 @@ h2 {
   font-size: 30px;
   background-size: cover;
 }
+
+.Next{
+ top: 50%;
+ left: 85%;
+ transform: translate(-50%,-50%);
+ position:absolute;
+  
+ background-color:maroon;
+ border-color:black;
+ border-style: solid;
+ border-width: 0.1vw;
+ width:8vw;
+ height:2vw;
+ border-radius:25vw;
+ transition-duration: 1s;
+}
+
+.Next:hover{
+ background-color: red;
+ transition-timing-function: ease-in-out;
+}
+
+p6 {
+ margin: 0;
+ color:white;
+ font-family: Helvetica,Arial,sans-serif;
+ font-size: 1vw;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%)
+}
